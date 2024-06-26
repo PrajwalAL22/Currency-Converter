@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import useCurrencies from "./Hooks/useCurrencies";
 import CurrencyBox from "./Components/CurrencyBox";
@@ -66,7 +67,7 @@ function App() {
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg"
+              className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg hover:bg-blue-700"
             >
               Convert {from.toUpperCase()} To {to.toUpperCase()}
             </button>
